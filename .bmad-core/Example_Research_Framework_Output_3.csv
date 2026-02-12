@@ -1,0 +1,182 @@
+Table 4 | Papers in the substance use topic (topic 3)
+Citation Aim(s) Data Disparity Methods (related to 
+disparities)
+Findings (related to disparities)
+Subtopic: alcohol use
+38 Use models to identify 
+patterns of high-risk 
+drinking
+Web-based survey 
+of Brazilian medical 
+students (n = 4,254 
+medical students)
+Disparity type: outcome and ML 
+performance variation associated 
+with sociodemographic subgroups
+Disparity variables: age, gender 
+(and gender identification), sexual 
+orientation, income, marital status, 
+has children, living situation and 
+social considerations such as quality 
+of family and friend relationships
+Random forest, 
+GLMNET and ANN for 
+prediction of high-risk 
+drinking. LIME for 
+feature importance 
+and explanation.
+Either lower or higher (that is, not 
+middle) income, being single, 
+being bisexual and tobacco and 
+cannabis use were the most 
+important predictors of high-risk 
+drinking. Lower precision was 
+seen in female-specific models 
+for high-risk drinking, but higher 
+precision for low-risk drinking 
+models.
+40 Identify predictors of 
+screening for alcohol 
+quantity
+Data from National 
+Alcohol Survey 
+(n = 9,668 respondents)
+Disparity type: outcome variation 
+associated with sociodemographic 
+subgroups
+Disparity variables: gender, age, race/
+ethnicity, education, marital status, 
+primary care source and insurance
+Logistic regression 
+and CART to predict 
+screening of alcohol 
+usage quantity.
+In logistic regression results, 
+college graduates and those 
+over 35 years of age were 
+more likely to be screened for 
+alcohol use. CART results find 
+additional subgroups, including 
+that nonwhite individuals with 
+high school education (or less 
+education than high school) were 
+less likely to be screened for 
+alcohol use quantity.
+Subtopic: opioid use
+39 To find evidence to 
+support individualized 
+approach to improve 
+outcome of cessation 
+attempts
+1,192 African American 
+and 2,557 European 
+ancestry. Each ML 
+model had a different 
+combination of these 
+two
+Disparity type: outcome variation 
+associated with sociodemographic 
+subgroups
+Disparity variables: race (African 
+American versus European ancestry)
+Support vector 
+machine to classify for 
+opioid use cessation 
+versus noncessation.
+Racial differences included 
+a stronger association with 
+substance initiation for antisocial 
+behaviors in European ancestry 
+children than African American 
+children, and a stronger 
+association with African American 
+for gambling problems than with 
+European ancestry.
+41 Subgroup analysis 
+to identify what 
+characteristics 
+beyond race make 
+individuals vulnerable 
+to receive opioid use 
+disorder care
+Substance use 
+disorder dataset from 
+Treatment Episode 
+Data Set admissions 
+(A) (n = 188,637 
+from California and 
+n = 184,276 from 
+Maryland)
+Disparity type: outcome variation 
+associated with sociodemographic 
+subgroups
+Disparity variables: race/ethnicity, 
+homelessness status, age, gender, 
+marital status, education level, 
+employment status, income and 
+pregnancy status
+Virtual twins (random 
+forest in stage 1; 
+decision tree in stage 
+2) for prediction 
+of wait times and 
+explanation of 
+heterogeneity.
+Longer wait times were 
+associated with being African 
+American as opposed to white. 
+Individuals who were African 
+American and also homeless 
+had the longest waiting times for 
+treatment.
+Subtopic: substance agnostic
+17 To understand topics 
+of discussion on 
+Twitter in association 
+with telehealth for 
+mental health
+Tweets from 2014 to 
+2021 (n = 353,554)
+Disparity type: subgroup 
+representation in the data
+Disparity variables: subpopulations 
+identified in topic analysis: military, 
+veterans, children and parents
+BERTopic used to 
+extract primary topics 
+of discussion.
+Primary topics were anxiety, 
+depression, addiction and 
+rehabilitation, but subpopulation 
+discussions shifted from 
+a prepandemic emphasis 
+on military, veterans and 
+posttraumatic stress disorder to 
+child- and parent-focused issues 
+during the pandemic.
+42 To examine the 
+disparities in the 
+completion of 
+substance use 
+disorder treatment
+Treatment Episode 
+Data Set discharges (D) 
+(n = 649,479)
+Disparity type: outcome variation 
+associated with sociodemographic 
+subgroups
+Disparity variables: race/ethnicity, 
+income source, gender, age, health 
+insurance and veteran
+Virtual twins (random 
+forest in stage 1; 
+decision tree in stage 
+2) used to predict 
+treatment completion 
+and explain 
+heterogeneity.
+Individuals more likely to 
+complete treatment do not have 
+co-occurring mental health 
+condition, have income from a job 
+and are white non-Hispanic

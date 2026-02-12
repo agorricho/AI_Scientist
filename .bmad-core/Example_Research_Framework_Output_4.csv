@@ -1,0 +1,208 @@
+Table 5 | Empirical papers in the model bias and fairness topic (topic 4)
+Citation Aim(s) Data Disparity Method (final) Findings (especially related to 
+disparities)
+Subtopic: impact of bias
+16 Impact of bias on 
+predicting mortality 
+and readmission
+Unstructured clinical 
+and psychiatric notes 
+(MIMIC-III dataset) 
+from 2011 to 2015 
+(n = 3,202).
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variables: race, gender 
+and insurance type
+LDA (for topics) and 
+logistic regression with 
+L1 regularization (for 
+prediction).
+Heterogeneity was found in topics 
+for gender and insurance type; race 
+was not significant. Differences 
+in error rates were observed for 
+insurance type for psychiatric 30-day 
+readmission, and both gender and 
+insurance type for ICU mortality.
+47 To understand 
+average gender 
+transition sentiment 
+patterns
+n = 41,066 posts from 
+240 Tumblr transition 
+blogs
+Disparity type: using ML to 
+reduce group membership bias
+Disparity variables: transgender 
+(and gender transition)
+Sentiment with 
+linguistic inquiry 
+word count. Final 
+classification of 
+sentiment with 
+AdaBoost.
+Sentiment increases over time but 
+was observed to dip in the transition 
+stage (when assessing sentiment of 
+Facebook disclosures).
+48 Impact of behavioral 
+health accessibility on 
+incarceration rates
+Incarceration trends, 
+County Health 
+Rankings and Uniform 
+Crime Report
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variables: rural, income, 
+race (African American % and 
+Hispanic %), high graduation rate, 
+health care access violent crime 
+rate and police per capita
+LASSO for feature 
+selection; beta 
+regression to predict 
+jail population per 
+capita.
+Physically unhealthy days, lower rates 
+of psychiatrists per capita, high health 
+care costs and lower percent of drug 
+treatment paid by Medicaid are more 
+predictive of jail population than the 
+violent crime rate.
+46 Examine how 
+combined exposure to 
+heat and air pollution 
+affects health and 
+how it varies across 
+inter- and intraurban 
+areas
+Data from Google 
+Earth Engine (from 
+Landsat 8 for 16 
+days), SA1 (n = 57,523 
+areas)
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variables: many 
+sociodemographic factors 
+including age, ethnic diversity, 
+has children, mobile living, 
+unemployed and education
+Principal components 
+analysis (for dimension 
+reduction) and global 
+random forest (for 
+feature importance 
+and accumulated local 
+effects).
+The top five most important variables 
+associated with mental health in 
+urban areas were low socioeconomic 
+status, distances to public facilities, 
+compact design, crowded living 
+and health care access. The top 
+five in rural areas were minority, low 
+socioeconomic status, distance to 
+public facilities, crowded living and 
+proportion of Indigenous population.
+Subtopic: mitigation of bias in ML models
+51 Reducing bias in ML 
+models
+IBM MarketScan 
+Medicaid Database 
+(n = 573,634 females)
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variables: race (Black 
+versus white) for pregnant 
+females receiving Medicaid
+Logistic regression 
+with L2 regularization 
+for predicting 
+postpartum depression 
+and mental health 
+services use.
+White females were two times as likely 
+to be diagnosed with postpartum 
+depression and were 37% more likely 
+to utilize mental health services. 
+Of the three mitigation techniques 
+applied (prejudice remover, 
+reweighting and fairness through 
+unawareness), reweighting worked 
+best.
+50 Assessment of bias in 
+existing classifier
+EHR data (n = 1,000 
+for original classifier; 
+n = 53,974 for the 
+external validation 
+of bias)
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variables: race/
+ethnicity—Black, Hispanic/LatinX, 
+white and other
+Fairness of 
+existing classifier 
+(convolutional 
+neural network) 
+for classification of 
+patients by opioid 
+misuse (or nonmisuse).
+Bias found in FNR of Black subgroup 
+compared with the white subgroup 
+in the original classifier. Post-hoc 
+mitigation reduced bias.
+52 Examine the 
+susceptibility of 
+common ML models 
+in mental health to 
+bias
+Labeled dataset from 
+previous study (n = 55)
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variable: gender
+Random forest to 
+classify mental health 
+status.
+Disparity found with respect to 
+gender. Bias mitigation was effective 
+when balanced error rate applied in 
+the preprocessing phase, albeit with 
+some accuracy loss.
+53 Gender disparities 
+in algorithms for 
+prediction of anorexia
+Spanish dataset of 
+177 ‘anorexia’ users 
+(n = 471,262 tweets) 
+and 326 ‘nonanorexia’ 
+users (n = 910,967 
+tweets)
+Disparity type: ML model bias 
+related to sociodemographic 
+features
+Disparity variable: gender
+Logistic regression 
+classifier for 
+classification of 
+anorexia nervosa.
+The FNR was higher for females (FNR 
+0.082) than for males (0.005). Age, 
+emotion and personal concerns, 
+attributed to body dissatisfaction 
+in the discussion section, were 
+primary predictors for females. Bias 
+mitigation techniques provided some 
+improvement, but not complete 
+removal of bias

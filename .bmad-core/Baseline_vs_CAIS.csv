@@ -1,0 +1,39 @@
+Metric
+Baseline CAIS Change (%)
+General Statistics
+Total Queries
+Successful Queries
+Total Retries
+Retries per Query (%)
+Method Match Rate (%)
+Mean Error (%)
+1551
+1476
+930
+59.96
+52.08
+35.38
+585
+512
+159
+27.18
+76.20
+37.66––
+↓ 54.69
+↑ 46.3
+↑ 6.4
+Error Breakdown (%)
+Execution & Runtime Error 34.39 22.91
+Method Mismatch
+Data Loading Failure
+Missing Result
+29.77
+3.10
+0.76
+21.20
+0.00
+6.84
+↓ 33.4
+↓ 28.8
+↓ 100.0
+↑ 800.0
